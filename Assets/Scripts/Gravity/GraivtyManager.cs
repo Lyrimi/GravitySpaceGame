@@ -21,7 +21,6 @@ public class GavityManager : MonoBehaviour
         Vector2 point = PointAction.ReadValue<Vector2>();
 
         Vector2 ScreenPoint = Camera.main.ScreenToWorldPoint(point);
-        print(ScreenPoint);
 
         Vector2 Gravity = ScreenPoint.normalized;
 
